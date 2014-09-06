@@ -5,8 +5,8 @@
 
     <!-- Search, should appear as action button -->
     <item android:id="@+id/add_button"
-        android:icon="@drawable/ic_plus"
+        android:icon="@drawable/ic_add"
         android:title="@string/add_stuff"
-        android:showAsAction="always" />
+        app:showAsAction="always" />
 
 </menu>
