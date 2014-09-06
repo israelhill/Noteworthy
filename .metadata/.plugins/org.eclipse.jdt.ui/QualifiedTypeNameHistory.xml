@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.parse.ParseFacebookUtils"/>
+<fullyQualifiedTypeName name="com.parse.ParseException"/>
+<fullyQualifiedTypeName name="android.support.v4.app.FragmentActivity"/>
+<fullyQualifiedTypeName name="android.service.textservice.SpellCheckerService.Session"/>
+<fullyQualifiedTypeName name="com.parse.ParseObject"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="com.parse.SignUpCallback"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.parse.ParseQuery"/>
+<fullyQualifiedTypeName name="com.parse.GetCallback"/>
+<fullyQualifiedTypeName name="android.support.v7.widget.PopupMenu"/>
+<fullyQualifiedTypeName name="com.parse.LogInCallback"/>
+<fullyQualifiedTypeName name="com.parse.ParseUser"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog"/>
+<fullyQualifiedTypeName name="com.noteworthy.R.string"/>
+<fullyQualifiedTypeName name="com.noteworthy.R.id"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface"/>
+<fullyQualifiedTypeName name="android.graphics.drawable.ColorDrawable"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+</qualifiedTypeNameHistroy>
