@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,11 +6,48 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.noteworthy.MainActivity$PlaceholderFragment" >
+    tools:context="com.noteworthy.MainActivity$PlaceholderFragment"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+<EditText
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:hint="@string/username"
+    android:layout_marginBottom="9dp"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="5dp"/>
 
-</RelativeLayout>
+<EditText
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:hint="@string/password"
+    android:inputType="textPassword"
+    android:paddingLeft="5dp"
+    android:layout_marginBottom="13dp"/>
+
+<Button 
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/login_button"
+    android:text="@string/login"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:layout_gravity="center"
+    android:layout_marginBottom="9dp"
+    android:onClick="signIn"/>
+<Button 
+    android:id="@+id/signup"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/signup_button"
+    android:text="@string/signup"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:layout_gravity="center"
+    android:onClick="signMeUp"/>
+
+    
+</LinearLayout>
