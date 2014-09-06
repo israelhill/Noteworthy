@@ -89,7 +89,7 @@ public class MainActivity extends ActionBarActivity {
 				// TODO Auto-generated method stub
 				if (uniqueUser != null) {
 	    		      // Hooray! The user is logged in.
-						Intent intent = new Intent(MainActivity.this, Test.class);
+						Intent intent = new Intent(MainActivity.this, Classes.class);
 						startActivity(intent);
 	    		    } 
 					else {

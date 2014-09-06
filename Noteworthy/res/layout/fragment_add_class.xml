@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="edward.mcenrue.noteworthy.app.Classes"
+    android:id="@+id/androidActivities">
+
+    <TextView
+        android:id="@+id/textViewSchool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/title_school"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <AutoCompleteTextView
+        android:id="@+id/school_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/course_input"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewSchool"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter School"
+        android:text="" >
+        
+          <requestFocus />
+    </AutoCompleteTextView>
+        
+      
+    
+    <AutoCompleteTextView
+        android:id="@+id/course_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewCourse"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewCourse"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="Enter Course" >
+
+        
+    </AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/textViewProfessor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewCourse"
+        android:layout_below="@+id/course_input"
+        android:layout_marginTop="36dp"
+        android:text="@string/title_professor"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/professor_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/course_input"
+        android:layout_alignRight="@+id/course_input"
+        android:layout_below="@+id/textViewProfessor"
+        android:ems="10"
+        android:hint="Enter Professor Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/school_input"
+        android:layout_marginTop="16dp"
+        android:text="@string/title_course"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/professor_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:text="   Done!   " 
+        android:onClick="finishedAddingClass"/>
+
+</RelativeLayout>

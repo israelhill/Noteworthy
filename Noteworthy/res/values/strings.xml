@@ -17,5 +17,12 @@
     <string name="title_activity_test">Test</string>
     <string name="ok">OK</string>
     <string name="invalid">"Invalid username or password</string>
+    <string name="title_activity_classes">Classes</string>
+    <string name="add_stuff">Add A Class or Note</string>
+    <string name="title_activity_add_class">AddClass</string>
+    <string name="title_school">School</string>
+    <string name="title_course">Course</string>
+    <string name="title_professor">Professor</string>
+    <string name="emptyList">No Classes</string>
 
 </resources>

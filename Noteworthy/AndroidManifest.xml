@@ -37,6 +37,14 @@
             android:name="com.noteworthy.Test"
             android:label="@string/title_activity_test" >
         </activity>
+        <activity
+            android:name="com.noteworthy.Classes"
+            android:label="@string/title_activity_classes" >
+        </activity>
+        <activity
+            android:name="com.noteworthy.AddClass"
+            android:label="@string/title_activity_add_class" >
+        </activity>
     </application>
 
 </manifest>
