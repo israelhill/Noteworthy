@@ -115,8 +115,9 @@ public class MainActivity extends ActionBarActivity {
     
     public void button1(View view)
     {
-    	Intent displayMedia = new Intent(this, CalendarActivity.class);
+    	Intent displayMedia = new Intent(getActivity(), CalendarActivity.class);
 
     	startActivity(displayMedia);
+    }
     }
 }
