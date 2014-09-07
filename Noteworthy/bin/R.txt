@@ -245,6 +245,15 @@ int drawable ic_launcher 0x7f02005a
 int drawable login_button 0x7f02005b
 int drawable sign_up_fields 0x7f02005c
 int drawable signup_button 0x7f02005d
+int drawable contributor1 0x7f020057
+int drawable contributor2 0x7f020058
+int drawable contributor3 0x7f020059
+int drawable contributor4 0x7f02005a
+int drawable contributor5 0x7f02005b
+int drawable ic_launcher 0x7f02005c
+int drawable noteworthybutton 0x7f02005d
+int id ContributionLine 0x7f050042
+>>>>>>> Stashed changes
 int id action_bar 0x7f05001c
 int id action_bar_activity_content 0x7f050015
 int id action_bar_container 0x7f05001b
@@ -256,16 +265,23 @@ int id action_context_bar 0x7f05001d
 int id action_menu_divider 0x7f050016
 int id action_menu_presenter 0x7f050017
 int id action_mode_close_button 0x7f050024
+<<<<<<< Updated upstream
 int id action_settings 0x7f050050
+=======
+int id action_settings 0x7f050044
+>>>>>>> Stashed changes
 int id activity_chooser_view_content 0x7f050025
 int id add_button 0x7f050051
 int id always 0x7f05000b
 int id androidActivities 0x7f050040
 int id beginning 0x7f050011
+int id button1 0x7f05003e
 int id checkbox 0x7f05002d
 int id collapseActionView 0x7f05000d
 int id container 0x7f05003c
 int id course_input 0x7f050043
+int id container 0x7f05003d
+int id contributorsList 0x7f05003c
 int id default_activity_button 0x7f050028
 int id dialog 0x7f05000e
 int id disableHome 0x7f050008
@@ -286,12 +302,16 @@ int id image 0x7f050027
 int id listMode 0x7f050001
 int id list_item 0x7f050029
 int id login 0x7f05004a
+int id mImageView 0x7f05003f
 int id middle 0x7f050012
+int id nameLine 0x7f050041
 int id never 0x7f050009
 int id none 0x7f050010
 int id normal 0x7f050000
 int id password 0x7f050049
 int id professor_input 0x7f050046
+int id numberOfContributions 0x7f050043
+int id profilePicture 0x7f050040
 int id progress_circular 0x7f050018
 int id progress_horizontal 0x7f050019
 int id radio 0x7f05002f
@@ -366,6 +386,12 @@ int menu add_class 0x7f0c0000
 int menu classes 0x7f0c0001
 int menu main 0x7f0c0002
 int menu sign_up 0x7f0c0003
+int layout activity_calendar 0x7f030018
+int layout activity_main 0x7f030019
+int layout activity_photo 0x7f03001a
+int layout calendarlist_item 0x7f03001b
+int layout support_simple_spinner_dropdown_item 0x7f03001c
+int menu main 0x7f0c0000
 int string abc_action_bar_home_description 0x7f0a0001
 int string abc_action_bar_up_description 0x7f0a0002
 int string abc_action_menu_overflow_description 0x7f0a0003
@@ -402,6 +428,7 @@ int string title_course 0x7f0a0021
 int string title_professor 0x7f0a0022
 int string title_school 0x7f0a0020
 int string username 0x7f0a0010
+int string title_activity_calendar 0x7f0a0010
 int style AppBaseTheme 0x7f0b008b
 int style AppTheme 0x7f0b008c
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0b0063

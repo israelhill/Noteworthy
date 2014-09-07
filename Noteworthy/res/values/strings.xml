@@ -24,5 +24,6 @@
     <string name="title_course">Course</string>
     <string name="title_professor">Professor</string>
     <string name="emptyList">No Classes</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
 
 </resources>
